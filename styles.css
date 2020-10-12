@@ -1,0 +1,261 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#resume, #skills, #portfolio {
+  padding-top: 55px;
+}
+
+.portfolio-item {
+  margin-top: 10px;
+}
+
+p.text-muted {
+  margin-bottom: 0;
+}
+
+@media (max-width: 766px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }  
+  header.heading .intro-text {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 60px;
+  }
+
+  .project-image {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  header.heading .intro-text {
+    padding-top: 175px;
+    padding-bottom: 175px;
+    font-size: 65px;
+  }
+
+  .project-image {
+    width: 200px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+}
+  
+@media (min-width: 992px) {
+  #nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #nav .navbar-brand {
+    font-size: 1.75em;
+    transition: all 0.3s;
+  }
+  #nav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #nav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #nav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+
+  .container-custom1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  header.heading .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 75px;
+  }
+
+  .project-image {
+    width: 250px;
+  }
+}
+  
+@media(min-width: 1921px) {
+  .container {
+    max-width: 1500px;
+  }
+  header.heading .intro-text {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    font-size: 90px;
+  }
+}
+
+@media(min-width: 2400px) {
+  .container {
+    max-width: 1800px;
+  }
+  header.heading .intro-text {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 105px;
+  }
+}
+
+@media(min-width: 3200px) {
+  .container {
+    max-width: 2200px;
+  }
+  header.heading .intro-text {
+    padding-top: 350px;
+    padding-bottom: 350px;
+    font-size: 115px;
+  }
+}
+
+/* Navigation */
+
+#nav {
+    background-color: #212529;
+}
+
+#nav .navbar-toggler {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+}
+
+#nav .navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#nav .navbar-brand.active, #nav .navbar-brand:active, #nav .navbar-brand:focus, #nav .navbar-brand:hover {
+    color: #fec503;
+}
+
+#nav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#nav .navbar-nav .nav-item .nav-link.active, #nav .navbar-nav .nav-item .nav-link:hover, #nav .navbar-toggler:hover {
+    color: #fed136;
+}
+
+/* Header */
+  
+header.heading {
+    text-align: center;
+    color: white;
+    background-image: url("images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.heading .intro-text .intro-lead-in {
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.secondary-heading {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* CONTACT FORM */
+section#contact {
+    background-color: #212529;
+}
+
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 339px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder, section#contact :-moz-placeholder, section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+}
+
+#contact-header {
+    padding-bottom: 30px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+  
+  ul.social-buttons {
+    margin-bottom: 0;
+  }
+  
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+  }
+  
+  .icon-footer {
+    height: 50px;
+    vertical-align: baseline;
+    background-color: rgb(46, 201, 253);
+    border-radius: 100%;
+  }
+  
+  .icon-footer:hover {
+    background-color: red;
+  }
+  
+  .footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
